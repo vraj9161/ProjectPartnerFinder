@@ -1,0 +1,46 @@
+.Profile{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    
+}
+.profile{
+    position: relative; 
+    background-color: #daecf7;
+    width: 70%;
+    border-spacing: 50px 5px;
+    border-collapse: separate;
+    overflow: scroll;
+    border-radius: 10px;
+    height: 80vh;
+}
+
+.usertable{
+    background-color: #daecf7;
+    width: 100%;
+    padding: 20px;
+    /* border-spacing: 50px 5px; */
+}
+.usertable tr td,th{
+    border-bottom: black 1px solid;
+    width: 1000px;
+}
+
+.a-button, .s-button{
+    margin-top: 20px;
+    height:3rem;
+    width: 150px;
+    display: inline-block;
+    align-self: center;
+}
+
+.tableHead{
+    height: 10vh;
+}
+
+.Profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
